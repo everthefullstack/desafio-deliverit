@@ -1,0 +1,26 @@
+<table>
+  <tr>
+    <th>Id</th>
+    <th>Nome</th>
+    <th>Valor</th>
+    <th>Vencimento</th>
+    <th>Pagamento</th>
+    <th>Valor corrigido</th>
+    <th>Dias em atraso</th>
+    <th>Regra</th>
+  </tr>
+
+  {{#each lista}}
+  <tr>
+    <td>{{ dataValues.pkcodConta }}</td>
+    <td>{{ dataValues.nome }}</td>
+    <td>{{ dataValues.valor }}</td>
+    <td>{{ dataValues.datavenc }}</td>
+    <td>{{ dataValues.datapag }}</td>
+    <td>{{ dataValues.valorCorrigido }}</td>
+    <td>{{ dataValues.qtdDiasEmAtraso }}</td>
+    <td>{{ dataValues.regra }}</td>
+  </tr>
+  {{/each}}
+
+</table>
