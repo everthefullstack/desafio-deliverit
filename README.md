@@ -1,6 +1,6 @@
 "# desafio-deliverit" 
 
-**Neste desfio foi utilizado nodejs no backend, handlebars no frontend, sqlite para o banco de dados e docker para conteinerização.
+**Neste desafio foi utilizado nodejs no backend, handlebars no frontend, sqlite para o banco de dados e docker para conteinerização.
 
 **Não foi feita a parte de testes.
 
@@ -8,6 +8,5 @@
 
 **Caso deseje rodar o projeto em um container docker siga as instruções abaixo:
 
--docker build -t deliverit
-
---docker run -p 3000:3000 -d deliverit
+docker build -t deliverit
+docker run -p 3000:3000 -d deliverit
