@@ -9,4 +9,5 @@
 **Caso deseje rodar o projeto em um container docker siga as instruções abaixo:
 
 docker build -t deliverit
+
 docker run -p 3000:3000 -d deliverit
